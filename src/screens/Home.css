@@ -1,21 +1,41 @@
-.accueil {
-  min-height: 100vh;
-  max-width: 100vw;
-  padding-top: 80px;
+.site {
+  height: 100vh;
+  width: 100vw;
+}
+
+.page {
+  height: 90vh;
+  padding-top: 10vh;
+  /* 
+  background-image: url("../assets/hotdog3wp.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  border-bottom: 1px dotted #f1f1f1;
+}
+
+.souspage {
+  border: 2px solid yellow;
+  min-height: 90vh;
+  height: max-content;
+}
+
+#home {
   background-image: url("../assets/hotdog3wp.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-bottom: 1px dotted #f1f1f1;
+  border: 2px solid blue;
 }
 
 .logo-hotdog {
-  width: 300px;
+  width: 50%;
+  max-width: 400px;
   display: block;
   margin: 80px auto 0;
 }
 
-.accueil h1 {
+.page h1 {
   text-align: center;
   font-size: 80px;
   text-transform: uppercase;
@@ -54,26 +74,25 @@
 
 .btn-accueil:hover {
   background: #c49419;
-  color: rgb(232, 232, 232)
+  color: rgb(232, 232, 232);
 }
 
-@media screen and (max-width : 1121px) {
-    /* .accueil {
+@media screen and (max-width: 1121px) {
+  /* .accueil {
         height : 650px;
         min-height: auto;
     } */
-    .logo-hotdog {
-        margin: 100px auto 0;
-        width: 400px;
-    }
-    .accueil h1 {
-        font-size: 60px;
-        margin-top: 40px;
-    }
-    .sous-titre {
-        font-size: 23px;
-    }
-    .btn-accueil{
-        margin : 75px auto 0;
-    }
+  .logo-hotdog {
+    margin: 100px auto 0;
+  }
+  .page h1 {
+    font-size: 60px;
+    margin-top: 40px;
+  }
+  .sous-titre {
+    font-size: 23px;
+  }
+  .btn-accueil {
+    margin: 75px auto 0;
+  }
 }

@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400');
 
+/* html {
+  scroll-behavior: smooth;
+
+} */
+
 *, ::before, ::after {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +14,7 @@
 body {
 background: #b3b3b3;
 font-family: 'Francois One', 'Source Sans Pro', sans-serif;
-width: 100vw;
+/* width: 100vw; */
 height: 100vh;
 }
 
